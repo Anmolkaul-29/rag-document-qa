@@ -184,8 +184,9 @@ GET /
 
 
 Returns a simple status message to confirm the API is running.
+---
 
-9. Running the Project
+## 9. Running the Project
 
 1. Create Virtual Environment
 python -m venv rag_env
@@ -205,8 +206,8 @@ uvicorn backend.main:app --reload
 
 5. Open Swagger UI
 http://127.0.0.1:8000/docs
-
-10. Hallucination Prevention
+---
+## 10. Hallucination Prevention
 
 The system explicitly:
 
@@ -217,8 +218,8 @@ Rejects unanswered questions with a fixed response
 Avoids inference or assumption beyond document content
 
 This ensures reliable, grounded answers.
-
-11. Future Improvements
+---
+## 11. Future Improvements
 
 Support for DOCX and Markdown
 
@@ -229,8 +230,8 @@ Hybrid search (BM25 + vectors)
 Source highlighting at sentence level
 
 Authentication and multi-user support
-
-12. Conclusion
+---
+## 12. Conclusion
 
 This project demonstrates a production-style RAG pipeline with:
 
