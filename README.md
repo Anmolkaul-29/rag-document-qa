@@ -139,16 +139,19 @@ If the answer cannot be derived, the system responds with:
 ---
 POST /session/reset
 
+---
+
 ## 8. API Endpoints
 
 ### 1. Ingest Documents
 **POST /documents/ingest**
 
-Input: Multipart file upload  
+**Input:** Multipart file upload  
 
-Output:
+**Output:**
 ```json
 { "status": "document ingested" }
+
 
 
 2. Chat
