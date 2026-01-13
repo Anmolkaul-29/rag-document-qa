@@ -149,7 +149,7 @@ POST /session/reset
 **Input:** Multipart file upload  
 
 **Output:**
-```json
+
 { "status": "document ingested" }
 
 ### 2. Chat
