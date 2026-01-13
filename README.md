@@ -186,6 +186,7 @@ GET /
 Returns a simple status message to confirm the API is running.
 ---
 
+
 ## 9. Running the Project
 
 1. Create Virtual Environment
