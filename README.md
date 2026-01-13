@@ -152,38 +152,35 @@ POST /session/reset
 ```json
 { "status": "document ingested" }
 
+### 2. Chat
 
+**POST /chat**
 
-2. Chat
-
-POST /chat
-
-Input:
+**Input:**
 
 {
   "session_id": "demo1",
   "query": "What skills does the candidate have?"
 }
 
-Output:
+**Output:**
 
 {
   "answer": "...",
   "sources": ["document_name.pdf"]
 }
 
-3. Reset Session
-POST /session/reset
+### 3. Reset Session
+**POST /session/reset**
 
-
-Input:
+**Input:**
 
 {
   "session_id": "demo1"
 }
 
-4. Root Health Check
-GET /
+### 4. Root Health Check
+**GET /**
 
 
 Returns a simple status message to confirm the API is running.
