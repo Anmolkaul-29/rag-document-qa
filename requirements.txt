@@ -1,0 +1,10 @@
+python-multipart
+fastapi
+uvicorn
+python-dotenv
+openai
+langchain
+faiss-cpu
+pypdf
+sentence-transformers
+streamlit
